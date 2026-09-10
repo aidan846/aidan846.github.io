@@ -13,6 +13,11 @@
     color: var(--text);
 }
 
+img.favicon, svg {
+  image-rendering: pixelated; /* Chrome, Edge, Safari */
+  image-rendering: crisp-edges; /* Firefox */
+}
+
 * {
     box-sizing: border-box;
 }
